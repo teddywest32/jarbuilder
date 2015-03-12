@@ -39,7 +39,7 @@ namespace jRAT
 			}
 			else
 			{
-				MessageBox.Show("Invalid argument length: " + args.Length, "jRAT", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				MessageBox.Show("This file should not be ran manually!", "jRAT", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 		}
 		
